@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and responsive viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Data - Jessica Taylor</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>Patient Dashboard</h1>
+    </header>
+    <main>
+        <!-- Section for patient information -->
+        <section id="patient-info">
+            <h2>Jessica Taylor</h2>
+            <img id="profile-picture" src="" alt="Jessica Taylor's Profile Picture" />
+            <p id="patient-details"></p>
+        </section>
+        <!-- Section for displaying blood pressure chart -->
+        <section id="blood-pressure-chart">
+            <h3>Blood Pressure Over the Years</h3>
+            <canvas id="bpChart"></canvas>
+        </section>
+    </main>
+    <!-- Include Chart.js library from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Include custom JavaScript file -->
+    <script src="scripts.js"></script>
+</body>
+</html>
+

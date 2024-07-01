@@ -1,0 +1,44 @@
+/* Apply default styles to the entire body */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Set font family */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    background-color: #f0f0f0; /* Set background color */
+}
+
+/* Styling for the header section */
+header {
+    background-color: #4CAF50; /* Background color */
+    color: white; /* Text color */
+    text-align: center; /* Center align text */
+    padding: 1em; /* Padding around the header content */
+}
+
+/* Styling for the main content section */
+main {
+    padding: 20px; /* Padding around the main content */
+}
+
+/* Styling for the patient information section */
+#patient-info {
+    background: white; /* Background color */
+    padding: 20px; /* Padding around the content */
+    margin-bottom: 20px; /* Bottom margin */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle depth effect */
+}
+
+/* Styling for the blood pressure chart section */
+#blood-pressure-chart {
+    background: white; /* Background color */
+    padding: 20px; /* Padding around the content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle depth effect */
+}
+
+/* Styling for the canvas element inside the blood pressure chart section */
+canvas {
+    width: 100%; /* Full width of its container */
+    height: 400px; /* Fixed height */
+}
